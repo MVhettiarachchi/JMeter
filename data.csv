@@ -1,0 +1,5 @@
+Label Id,Element Label,# Samples,Avg. Response Time (ms),Avg. Hits/s,90% line (ms),95% line (ms),99% line (ms),Min Response Time (ms),Max Response Time (ms),Avg. Bandwidth (KBytes/s),Error Percentage,Has Label Passed Thresholds,Concurrency
+b5c7aed7cd2a308523e7d2847b7815909e864b2fd9c4ea88b00d35adb2ecdfd7,ALL,14199,516.27,11.8,565,623,910,87,132479,5432.4,0,,20
+532eaabd9574880dbf76b9b8cc00832c20a6ec113d682299550d7a6e0f345e25,Test,4721,761.65,3.95,643,706,1344,364,132479,2726.73,0,,20
+c35f76520c2c58e7fa22140707118b5806ba67aef75d30ea263c729c94ebf5b3,https://www.w3schools.com/tags/default.asp,4741,605.57,3.95,425,473,838,250,131711,1770.89,0,,20
+ead7ff1a32db53928ef41fd554949e121cb3161421591b0d8ff1d436897c1a64,https://www.w3schools.com/tags/ref_colornames.asp,4737,182.41,3.96,253,286,494,87,3213,961.33,0,,20
