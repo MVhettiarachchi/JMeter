@@ -1,5 +1,41 @@
-Label Id,Element Label,# Samples,Avg. Response Time (ms),Avg. Hits/s,90% line (ms),95% line (ms),99% line (ms),Min Response Time (ms),Max Response Time (ms),Avg. Bandwidth (KBytes/s),Error Percentage,Has Label Passed Thresholds,Concurrency
-b5c7aed7cd2a308523e7d2847b7815909e864b2fd9c4ea88b00d35adb2ecdfd7,ALL,14199,516.27,11.8,565,623,910,87,132479,5432.4,0,,20
-532eaabd9574880dbf76b9b8cc00832c20a6ec113d682299550d7a6e0f345e25,Test,4721,761.65,3.95,643,706,1344,364,132479,2726.73,0,,20
-c35f76520c2c58e7fa22140707118b5806ba67aef75d30ea263c729c94ebf5b3,https://www.w3schools.com/tags/default.asp,4741,605.57,3.95,425,473,838,250,131711,1770.89,0,,20
-ead7ff1a32db53928ef41fd554949e121cb3161421591b0d8ff1d436897c1a64,https://www.w3schools.com/tags/ref_colornames.asp,4737,182.41,3.96,253,286,494,87,3213,961.33,0,,20
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1659818866150,572,HomePage,200,OK,Thread Group 1-1,text,true,,109604,120,2,2,https://www.w3schools.com/,466,0,367
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-1,text,false,,874,0,2,2,null,0,0,0
+1659818866654,602,HomePage,200,OK,Thread Group 1-2,text,true,,109604,120,2,2,https://www.w3schools.com/,484,0,376
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-2,text,false,,874,0,2,2,null,0,0,0
+1659818867158,523,HomePage,200,OK,Thread Group 1-3,text,true,,109604,120,2,2,https://www.w3schools.com/,393,0,283
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-3,text,false,,874,0,2,2,null,0,0,0
+1659818867647,691,HomePage,200,OK,Thread Group 1-4,text,true,,109604,120,2,2,https://www.w3schools.com/,573,0,438
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-4,text,false,,874,0,2,2,null,0,0,0
+1659818868147,838,HomePage,200,OK,Thread Group 1-5,text,true,,109604,120,2,2,https://www.w3schools.com/,376,0,288
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-5,text,false,,874,0,2,2,null,0,0,0
+1659818868648,859,HomePage,200,OK,Thread Group 1-6,text,true,,109604,120,2,2,https://www.w3schools.com/,569,0,440
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-6,text,false,,874,0,2,2,null,0,0,0
+1659818869148,690,HomePage,200,OK,Thread Group 1-7,text,true,,109604,120,2,2,https://www.w3schools.com/,517,0,448
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-7,text,false,,874,0,2,2,null,0,0,0
+1659818869648,569,HomePage,200,OK,Thread Group 1-8,text,true,,109604,120,2,2,https://www.w3schools.com/,446,0,292
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-8,text,false,,874,0,2,2,null,0,0,0
+1659818870148,539,HomePage,200,OK,Thread Group 1-9,text,true,,109604,120,2,2,https://www.w3schools.com/,369,0,257
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-9,text,false,,874,0,2,2,null,0,0,0
+1659818870647,477,HomePage,200,OK,Thread Group 1-10,text,true,,109604,120,1,1,https://www.w3schools.com/,370,0,260
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-10,text,false,,874,0,1,1,null,0,0,0
+1659818871147,556,HomePage,200,OK,Thread Group 1-11,text,true,,109604,120,2,2,https://www.w3schools.com/,427,0,314
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-11,text,false,,874,0,2,2,null,0,0,0
+1659818871648,520,HomePage,200,OK,Thread Group 1-12,text,true,,109604,120,2,2,https://www.w3schools.com/,380,0,282
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-12,text,false,,874,0,2,2,null,0,0,0
+1659818872149,524,HomePage,200,OK,Thread Group 1-13,text,true,,109604,120,2,2,https://www.w3schools.com/,357,0,252
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-13,text,false,,874,0,2,2,null,0,0,0
+1659818872647,740,HomePage,200,OK,Thread Group 1-14,text,true,,109604,120,2,2,https://www.w3schools.com/,427,0,307
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-14,text,false,,874,0,2,2,null,0,0,0
+1659818873147,623,HomePage,200,OK,Thread Group 1-15,text,true,,109604,120,2,2,https://www.w3schools.com/,491,0,377
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-15,text,false,,874,0,2,2,null,0,0,0
+1659818873648,500,HomePage,200,OK,Thread Group 1-16,text,true,,109604,120,2,2,https://www.w3schools.com/,392,0,280
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-16,text,false,,874,0,2,2,null,0,0,0
+1659818874148,535,HomePage,200,OK,Thread Group 1-17,text,true,,109604,120,2,2,https://www.w3schools.com/,436,0,278
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-17,text,false,,874,0,2,2,null,0,0,0
+1659818874652,543,HomePage,200,OK,Thread Group 1-18,text,true,,109604,120,2,2,https://www.w3schools.com/,363,0,254
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-18,text,false,,874,0,2,2,null,0,0,0
+1659818875156,492,HomePage,200,OK,Thread Group 1-19,text,true,,109604,120,1,1,https://www.w3schools.com/,377,0,263
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-19,text,false,,874,0,1,1,null,0,0,0
+1659818875659,636,HomePage,200,OK,Thread Group 1-20,text,true,,109604,120,1,1,https://www.w3schools.com/,508,0,342
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',Thread Group 1-20,text,false,,874,0,1,1,null,0,0,0
